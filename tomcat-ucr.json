@@ -1,9 +1,9 @@
 {
-  "id": "/tomcat",
+  "id": "/tomcat-ucr",
   "backoffFactor": 1.15,
   "backoffSeconds": 1,
   "container": {
-    "type": "DOCKER",
+    "type": "MESOS",
     "volumes": [],
     "docker": {
       "image": "markfjohnson/tomcat_sample",
